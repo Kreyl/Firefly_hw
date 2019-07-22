@@ -1,4 +1,4 @@
-671634129748734
+676386120377361
 Antennas
 ANT_868_10d4x36
 PCB{space}75.7x37.5,{space}AntPcb{space}14.8mm
@@ -146,6 +146,20 @@ ANT_YAGEO12x4
 0
 2
 2
+Antennas
+Firefly_868
+
+
+0
+1
+1
+Antennas
+Firefly_2400
+
+
+0
+1
+1
 Antennas
 LcktSnd_2d41
 
@@ -785,6 +799,13 @@ PLD-6
 6
 Connectors
 PLD-8
+Double-line{space}2x4pin{space}@2.54
+
+0
+8
+8
+Connectors
+PLD-8_LOCK
 Double-line{space}2x4pin{space}@2.54
 
 0
