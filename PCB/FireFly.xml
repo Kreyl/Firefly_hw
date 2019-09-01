@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Nute\Firefly\Firefly_hw\PCB\FireFly.sch</source>
+    <date>31.07.2019 14:45:00</date>
+    <tool>Eeschema (5.1.0-1321-g176b1a0fd)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FireFly.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C31">
+      <value>0.1u</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5519A8FA</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>0.1u</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5519A907</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>0.1u</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5519A90E</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>0.1u</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5519A921</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0.1u</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5519A928</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.1u</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5519A93B</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>LED_RGB 5050</value>
+      <footprint>LEDs:LED_5050</footprint>
+      <libsource lib="Tittar_kl" part="LED_5050_new" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>551AB468</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>22uH</value>
+      <footprint>Inductors:IND_1210_LQH32C</footprint>
+      <libsource lib="Tittar_kl" part="L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>551FAC9C</tstamp>
+    </comp>
+    <comp ref="DA1">
+      <value>NCP1400</value>
+      <footprint>SOT:SOT23-5</footprint>
+      <fields>
+        <field name="PN">NCP1400ASN33T1G</field>
+      </fields>
+      <libsource lib="Power_kl" part="NCP1400" description="Step-up: Vin=0.2...5.5V, Vout=3.3V, Iout=100mA; SOT23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>551FACBD</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SWITCH</value>
+      <footprint>BtnsSwitches:SW_SS-1P2T_Housing</footprint>
+      <libsource lib="Switches" part="SWITCH_1P2T_housing" description="Switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5528A9A9</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>BLM15AG102SN1</value>
+      <footprint>Inductors:IND_0402</footprint>
+      <libsource lib="Tittar_kl" part="L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569616A1</tstamp>
+    </comp>
+    <comp ref="Logo1">
+      <value>Logo</value>
+      <footprint>Pictures:Ostranna_12d7_10d1</footprint>
+      <libsource lib="pcb_details" part="Logo" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57188192</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>10u</value>
+      <footprint>Capacitors:CAP_0603</footprint>
+      <fields>
+        <field name="PN">CL10A106MQ8NNNC</field>
+        <field name="Price">2.5</field>
+        <field name="SolderPoints">2</field>
+        <field name="URL">https://www.terraelectronica.ru/catalog.php?ID=1155&amp;search=cl10a106mq8nnnc</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5718DC27</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistors:RES_0603</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571908AF</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistors:RES_0603</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571908B8</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>150R</value>
+      <footprint>Resistors:RES_0603</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571908C1</tstamp>
+    </comp>
+    <comp ref="XL3">
+      <value>CONN_4</value>
+      <footprint>Connectors:PBS-4R</footprint>
+      <fields>
+        <field name="PN">PBS-4R</field>
+        <field name="Price">4</field>
+        <field name="SolderPoints">0</field>
+        <field name="SolderPointsDIP">4</field>
+        <field name="URL">http://www.berelcom.ru/shop/show_good.php?idtov=1200014096&amp;grid=</field>
+      </fields>
+      <libsource lib="Connectors_kl" part="CONN_4" description="Symbole general de connecteur"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571908CD</tstamp>
+    </comp>
+    <comp ref="DD3">
+      <value>CC1101</value>
+      <footprint>QFN_DFN:QFN20</footprint>
+      <fields>
+        <field name="Price">140</field>
+        <field name="SolderPoints">21</field>
+        <field name="URL">http://</field>
+      </fields>
+      <libsource lib="RF_ICs" part="CC1101" description="Tranceiver 300-915MHz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57197E12</tstamp>
+    </comp>
+    <comp ref="XTAL3">
+      <value>27MHz</value>
+      <footprint>Quartz:03225C4</footprint>
+      <fields>
+        <field name="Price">15</field>
+        <field name="SolderPoints">4</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="CRYSTAL_H" description="Crystal with housing to solder"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57197E1B</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>18pF</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57197E24</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>18pF</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57197E2D</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>56k</value>
+      <footprint>Resistors:RES_0603</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57197E36</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>*</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57197E52</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>56k</value>
+      <footprint>Resistors:RES_0603</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57197E6D</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TESTPOINT</value>
+      <footprint>PCB:TESTPOINT_1MM</footprint>
+      <fields>
+        <field name="Price">0</field>
+        <field name="SolderPoints">0</field>
+      </fields>
+      <libsource lib="pcb_details" part="TESTPOINT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57197E76</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1u</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57197EB8</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>Resistors:RES_0603</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5724151D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100R</value>
+      <footprint>Resistors:RES_0603</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572415DA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitors:CAP_0603</footprint>
+      <fields>
+        <field name="PN">CL10A106MQ8NNNC</field>
+        <field name="Price">2.5</field>
+        <field name="SolderPoints">2</field>
+        <field name="URL">https://www.terraelectronica.ru/catalog.php?ID=1155&amp;search=cl10a106mq8nnnc</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57247DF6</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>Capacitors:CAP_0603</footprint>
+      <fields>
+        <field name="PN">CL10A106MQ8NNNC</field>
+        <field name="Price">2.5</field>
+        <field name="SolderPoints">2</field>
+        <field name="URL">https://www.terraelectronica.ru/catalog.php?ID=1155&amp;search=cl10a106mq8nnnc</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57247F26</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57248023</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>Resistors:RES_0603</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57248116</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT2222</value>
+      <footprint>SOT:SOT23-3</footprint>
+      <fields>
+        <field name="PN">~</field>
+        <field name="Price">5</field>
+        <field name="SolderPoints">3</field>
+        <field name="URL">~</field>
+      </fields>
+      <libsource lib="Transistors_kl" part="NPN" description="Generic NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57253872</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistors:RES_0603</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57254B87</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TESTPOINT</value>
+      <footprint>PCB:TESTPOINT_1MM</footprint>
+      <fields>
+        <field name="Price">0</field>
+        <field name="SolderPoints">0</field>
+      </fields>
+      <libsource lib="pcb_details" part="TESTPOINT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5725D339</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAT54WS</value>
+      <footprint>Diodes:SOD323</footprint>
+      <fields>
+        <field name="Price">2.5</field>
+        <field name="SolderPoints">2</field>
+        <field name="URL">https://www.terraelectronica.ru/catalog_info.php?CODE=182655</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="D_Shottky" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57241995</tstamp>
+    </comp>
+    <comp ref="BLN1">
+      <value>BALUN868JOHANSON</value>
+      <footprint>Radio:BALUN_JOHANSON868</footprint>
+      <fields>
+        <field name="PN">0896BM15A0001E</field>
+        <field name="SolderPoints">6</field>
+        <field name="URL">http://onelec.ru/products/0896bm15a0001e-52ab3408-7c12-4b8c-99ab-cc294cdc1e18</field>
+      </fields>
+      <libsource lib="RF_ICs" part="BALUN868JOHANSON" description="Balun for CC1101"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578CC1E9</tstamp>
+    </comp>
+    <comp ref="BZ1">
+      <value>PS-9627</value>
+      <footprint>Installation:BUZZER_HC0903</footprint>
+      <fields>
+        <field name="Price">10</field>
+        <field name="URL">http://www.quartz1.com/price/model.php?akt=7940.06</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="BUZZER" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C421AE</tstamp>
+    </comp>
+    <comp ref="RP1">
+      <value>REFPOINT</value>
+      <footprint>PCB:REF_POINT_1MM</footprint>
+      <libsource lib="pcb_details" part="REFPOINT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C241963</tstamp>
+    </comp>
+    <comp ref="RP2">
+      <value>REFPOINT</value>
+      <footprint>PCB:REF_POINT_1MM</footprint>
+      <libsource lib="pcb_details" part="REFPOINT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C241E33</tstamp>
+    </comp>
+    <comp ref="HOLE1">
+      <value>HOLE_METALLED</value>
+      <footprint>PCB:Hole2d2_out3d5mm</footprint>
+      <fields>
+        <field name="Price">0</field>
+        <field name="SolderPoints">0</field>
+      </fields>
+      <libsource lib="pcb_details" part="HOLE_METALLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3AF95D</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>10u</value>
+      <footprint>Capacitors:CAP_0603</footprint>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C70A61E</tstamp>
+    </comp>
+    <comp ref="HOLE2">
+      <value>HOLE_METALLED</value>
+      <footprint>PCB:Hole2d2_out3d5mm</footprint>
+      <fields>
+        <field name="Price">0</field>
+        <field name="SolderPoints">0</field>
+      </fields>
+      <libsource lib="pcb_details" part="HOLE_METALLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C87CE88</tstamp>
+    </comp>
+    <comp ref="HOLE3">
+      <value>HOLE_METALLED</value>
+      <footprint>PCB:Hole2d2_out3d5mm</footprint>
+      <fields>
+        <field name="Price">0</field>
+        <field name="SolderPoints">0</field>
+      </fields>
+      <libsource lib="pcb_details" part="HOLE_METALLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C897EF8</tstamp>
+    </comp>
+    <comp ref="HOLE4">
+      <value>HOLE_METALLED</value>
+      <footprint>PCB:Hole2d2_out3d5mm</footprint>
+      <fields>
+        <field name="Price">0</field>
+        <field name="SolderPoints">0</field>
+      </fields>
+      <libsource lib="pcb_details" part="HOLE_METALLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C897F01</tstamp>
+    </comp>
+    <comp ref="DD2">
+      <value>NRF52832</value>
+      <footprint>QFN_DFN:QFN-48_EP_6x6_Pitch0.4mm</footprint>
+      <libsource lib="RF_ICs" part="NRF52832" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF44CB7</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>4.7u</value>
+      <footprint>Capacitors:CAP_0603</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF57E70</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1u</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF6903E</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1u</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF6DA2E</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>10uH</value>
+      <footprint>Inductors:IND_0603</footprint>
+      <fields>
+        <field name="Price">4</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF77091</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>15nH</value>
+      <footprint>Inductors:IND_0402</footprint>
+      <fields>
+        <field name="Price">4</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF7933D</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1u</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF7E55F</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100pF</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF898F6</tstamp>
+    </comp>
+    <comp ref="XTAL2">
+      <value>32MHz</value>
+      <footprint>Quartz:03225C4</footprint>
+      <fields>
+        <field name="Price">15</field>
+        <field name="SolderPoints">4</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="CRYSTAL_H" description="Crystal with housing to solder"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF8D487</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>18pF</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF9B0CA</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>18pF</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFA2012</tstamp>
+    </comp>
+    <comp ref="XTAL1">
+      <value>32768</value>
+      <footprint>Quartz:03215C2</footprint>
+      <fields>
+        <field name="Price">15</field>
+        <field name="SolderPoints">2</field>
+        <field name="URL">http://www.quartz1.com/price/model.php?akt=7.18</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="CRYSTAL" description="Crystal resonator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF1BF8D</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>6.8pF</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF1BF99</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>6.8pF</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF1BFA5</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>3.9nH</value>
+      <footprint>Inductors:IND_0402</footprint>
+      <fields>
+        <field name="Price">4</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF40F5C</tstamp>
+    </comp>
+    <comp ref="ANT1">
+      <value>ANT_GENERAL</value>
+      <footprint>Antennas:Firefly_2400</footprint>
+      <libsource lib="Antennas_kl" part="ANT_PCB_MONO" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF469AA</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.1u</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFAC07F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100R</value>
+      <footprint>Resistors:RES_0603</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5724111E</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>BLM15AG102SN1</value>
+      <footprint>Inductors:IND_0402</footprint>
+      <libsource lib="Tittar_kl" part="L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF1288B</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.8pF</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF3796F</tstamp>
+    </comp>
+    <comp ref="DD1">
+      <value>EEPROM_I2C</value>
+      <footprint>SO_DIL_TSSOP:SO8_150MIL</footprint>
+      <fields>
+        <field name="SolderPoints">8</field>
+      </fields>
+      <libsource lib="memory" part="EEPROM_I2C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF1DDA6</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF21EC6</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors:RES_0603</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF272C4</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors:RES_0603</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF27D13</tstamp>
+    </comp>
+    <comp ref="XL1">
+      <value>CONN_8</value>
+      <footprint>Connectors:PLD-8_LOCK</footprint>
+      <libsource lib="Connectors_kl" part="CONN_8" description="Symbole general de connecteur"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D28E3E3</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>*</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D277103</tstamp>
+    </comp>
+    <comp ref="ANT2">
+      <value>ANT_PCB_MONO_2PIN</value>
+      <footprint>Antennas:Firefly_868</footprint>
+      <fields>
+        <field name="Price">0</field>
+        <field name="SolderPoints">0</field>
+      </fields>
+      <libsource lib="Antennas_kl" part="ANT_PCB_MONO" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572E5873</tstamp>
+    </comp>
+    <comp ref="L8">
+      <value>*</value>
+      <footprint>Inductors:IND_0402</footprint>
+      <fields>
+        <field name="Price">4</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57197E49</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>BUTTON</value>
+      <footprint>BtnsSwitches:BTN_4x4_SMD</footprint>
+      <libsource lib="Switches" part="BUTTON" description="Button with housing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2F551F</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>BUTTON</value>
+      <footprint>BtnsSwitches:BTN_4x4_SMD</footprint>
+      <libsource lib="Switches" part="BUTTON" description="Button with housing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2F6422</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>12pF</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3099D4</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>12pF</value>
+      <footprint>Capacitors:CAP_0402</footprint>
+      <fields>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <libsource lib="Tittar_kl" part="C" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D30ACA6</tstamp>
+    </comp>
+    <comp ref="B1">
+      <value>BAT_HOLDER</value>
+      <footprint>Installation:BATTERY_AAA_X2</footprint>
+      <fields>
+        <field name="Price">5</field>
+        <field name="SolderPointsDIP">2</field>
+      </fields>
+      <libsource lib="Power_kl" part="BAT" description="Battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572EEA07</tstamp>
+    </comp>
+    <comp ref="XL2">
+      <value>CONN_4</value>
+      <footprint>Connectors:PLS-4</footprint>
+      <fields>
+        <field name="SolderPoints">0</field>
+        <field name="SolderPointsDIP">4</field>
+      </fields>
+      <libsource lib="Connectors_kl" part="CONN_4" description="Symbole general de connecteur"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2CFD42</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Antennas_kl" part="ANT_PCB_MONO">
+      <fields>
+        <field name="Reference">ANT</field>
+        <field name="Value">ANT_PCB_MONO</field>
+        <field name="Price">0</field>
+        <field name="SolderPoints">0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connectors_kl" part="CONN_4">
+      <description>Symbole general de connecteur</description>
+      <fields>
+        <field name="Reference">XL</field>
+        <field name="Value">CONN_4</field>
+        <field name="SolderPoints">0</field>
+        <field name="SolderPointsDIP">4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connectors_kl" part="CONN_8">
+      <description>Symbole general de connecteur</description>
+      <fields>
+        <field name="Reference">XL</field>
+        <field name="Value">CONN_8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_kl" part="BAT">
+      <description>Battery</description>
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">BAT</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="power_out"/>
+        <pin num="C" name="C" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_kl" part="NCP1400">
+      <description>Step-up: Vin=0.2...5.5V, Vout=3.3V, Iout=100mA; SOT23-5</description>
+      <footprints>
+        <fp>SOT23-5</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">DA</field>
+        <field name="Value">NCP1400</field>
+        <field name="Footprint">SOT:SOT23-5</field>
+        <field name="SolderPoints">5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CE" type="passive"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="LX" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_ICs" part="BALUN868JOHANSON">
+      <description>Balun for CC1101</description>
+      <fields>
+        <field name="Reference">BLN</field>
+        <field name="Value">BALUN868JOHANSON</field>
+        <field name="Footprint">Radio:BALUN_JOHANSON868</field>
+        <field name="PN">0896BM15A0001E</field>
+        <field name="URL">http://onelec.ru/products/0896bm15a0001e-52ab3408-7c12-4b8c-99ab-cc294cdc1e18</field>
+        <field name="SolderPoints">6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Unbal" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="Bal1" type="passive"/>
+        <pin num="4" name="Bal2" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_ICs" part="CC1101">
+      <description>Tranceiver 300-915MHz</description>
+      <footprints>
+        <fp>QFN20</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">DD</field>
+        <field name="Value">CC1101</field>
+        <field name="Footprint">QFN_DFN:QFN20</field>
+        <field name="URL">http://</field>
+        <field name="Price">140</field>
+        <field name="SolderPoints">21</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCLK" type="passive"/>
+        <pin num="2" name="SO(GDO1)" type="passive"/>
+        <pin num="3" name="GDO2" type="passive"/>
+        <pin num="4" name="DVDD" type="power_in"/>
+        <pin num="5" name="DCOUPL" type="passive"/>
+        <pin num="6" name="GDO0" type="passive"/>
+        <pin num="7" name="CSn" type="passive"/>
+        <pin num="8" name="XOSC_Q1" type="passive"/>
+        <pin num="9" name="AVDD" type="power_in"/>
+        <pin num="10" name="XOSC_Q2" type="passive"/>
+        <pin num="11" name="AVDD" type="power_in"/>
+        <pin num="12" name="RF_P" type="output"/>
+        <pin num="13" name="RF_N" type="output"/>
+        <pin num="14" name="AVDD" type="power_in"/>
+        <pin num="15" name="AVDD" type="power_in"/>
+        <pin num="16" name="GND" type="power_in"/>
+        <pin num="17" name="RBIAS" type="passive"/>
+        <pin num="18" name="DGUARD" type="passive"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="SI" type="passive"/>
+        <pin num="PAD" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_ICs" part="NRF52832">
+      <fields>
+        <field name="Reference">DD</field>
+        <field name="Value">NRF52832</field>
+        <field name="Footprint">QFN_DFN:QFN-48_EP_6x6_Pitch0.4mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DEC1" type="passive"/>
+        <pin num="2" name="P0.00/XL1" type="passive"/>
+        <pin num="3" name="P0.01/XL2" type="passive"/>
+        <pin num="4" name="P0.02/AIN0" type="passive"/>
+        <pin num="5" name="P0.03/AIN1" type="passive"/>
+        <pin num="6" name="P0.04/AIN2" type="passive"/>
+        <pin num="7" name="P0.05/AIN3" type="passive"/>
+        <pin num="8" name="P0.06" type="passive"/>
+        <pin num="9" name="P0.07" type="passive"/>
+        <pin num="10" name="P0.08" type="passive"/>
+        <pin num="11" name="NFC1/P0.09" type="passive"/>
+        <pin num="12" name="NFC2/P0.10" type="passive"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="P0.11" type="passive"/>
+        <pin num="15" name="P0.12" type="passive"/>
+        <pin num="16" name="P0.13" type="passive"/>
+        <pin num="17" name="P0.14/TRACEDATA3" type="passive"/>
+        <pin num="18" name="P0.15/TRACEDATA2" type="passive"/>
+        <pin num="19" name="P0.16/TRACEDATA1" type="passive"/>
+        <pin num="20" name="P0.17" type="passive"/>
+        <pin num="21" name="P0.18/TRACEDATA0/SWO" type="passive"/>
+        <pin num="22" name="P0.19" type="passive"/>
+        <pin num="23" name="P0.20/TRACECLK" type="passive"/>
+        <pin num="24" name="P0.21/nRESET" type="passive"/>
+        <pin num="25" name="SWDCLK" type="passive"/>
+        <pin num="26" name="SWDIO" type="passive"/>
+        <pin num="27" name="P0.22" type="passive"/>
+        <pin num="28" name="P0.23" type="passive"/>
+        <pin num="29" name="P0.24" type="passive"/>
+        <pin num="30" name="ANT" type="passive"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="DEC2" type="passive"/>
+        <pin num="33" name="DEC3" type="passive"/>
+        <pin num="34" name="XC1" type="passive"/>
+        <pin num="35" name="XC2" type="passive"/>
+        <pin num="36" name="VDD" type="power_in"/>
+        <pin num="37" name="P0.25" type="passive"/>
+        <pin num="38" name="P0.26" type="passive"/>
+        <pin num="39" name="P0.27" type="passive"/>
+        <pin num="40" name="P0.28/AIN4" type="passive"/>
+        <pin num="41" name="P0.29/AIN5" type="passive"/>
+        <pin num="42" name="P0.30/AIN6" type="passive"/>
+        <pin num="43" name="P0.31/AIN7" type="passive"/>
+        <pin num="44" name="NC" type="NotConnected"/>
+        <pin num="45" name="VSS" type="power_in"/>
+        <pin num="46" name="DEC4" type="passive"/>
+        <pin num="47" name="DCC" type="passive"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="PAD" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switches" part="BUTTON">
+      <description>Button with housing</description>
+      <footprints>
+        <fp>BUTTON*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">BUTTON</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switches" part="SWITCH_1P2T_housing">
+      <description>Switch</description>
+      <footprints>
+        <fp>BUTTON*</fp>
+        <fp>SWITCH*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SA</field>
+        <field name="Value">SWITCH_1P2T_housing</field>
+        <field name="Price">5</field>
+        <field name="SolderPoints">5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="H" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tittar_kl" part="BUZZER">
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">BUZZER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tittar_kl" part="C">
+      <description>Capacitor</description>
+      <footprints>
+        <fp>c*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint">Capacitors:CAP_0603</field>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tittar_kl" part="CRYSTAL">
+      <description>Crystal resonator</description>
+      <footprints>
+        <fp>CRYSTAL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">XTAL</field>
+        <field name="Value">CRYSTAL</field>
+        <field name="Footprint">CRYSTAL</field>
+        <field name="Price">15</field>
+        <field name="SolderPoints">4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tittar_kl" part="CRYSTAL_H">
+      <description>Crystal with housing to solder</description>
+      <footprints>
+        <fp>CRYSTAL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">XTAL</field>
+        <field name="Value">CRYSTAL_H</field>
+        <field name="Footprint">CRYSTAL</field>
+        <field name="Price">15</field>
+        <field name="SolderPoints">4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="H" name="H" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tittar_kl" part="D_Shottky">
+      <footprints>
+        <fp>d*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Shottky</field>
+        <field name="Price">5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <pins>
+        <pin num="A" name="~" type="passive"/>
+        <pin num="C" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tittar_kl" part="L">
+      <footprints>
+        <fp>IND*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint">Inductors:IND_0402</field>
+        <field name="Price">4</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tittar_kl" part="LED_5050_new">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">LED_5050_new</field>
+        <field name="Footprint">LEDs:LED_5050</field>
+        <field name="Price">7</field>
+        <field name="SolderPoints">6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="B" type="passive"/>
+        <pin num="5" name="G" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tittar_kl" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>r*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint">Resistors:RES_0603</field>
+        <field name="Price">0.5</field>
+        <field name="SolderPoints">2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistors_kl" part="NPN">
+      <description>Generic NPN</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NPN</field>
+        <field name="SolderPoints">3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="memory" part="EEPROM_I2C">
+      <fields>
+        <field name="Reference">DD</field>
+        <field name="Value">EEPROM_I2C</field>
+        <field name="SolderPoints">8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="passive"/>
+        <pin num="2" name="A1" type="passive"/>
+        <pin num="3" name="A2" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="passive"/>
+        <pin num="6" name="SCL" type="passive"/>
+        <pin num="7" name="WP" type="passive"/>
+        <pin num="8" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pcb_details" part="HOLE_METALLED">
+      <footprints>
+        <fp>HOLE*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">HOLE</field>
+        <field name="Value">HOLE_METALLED</field>
+        <field name="Price">0</field>
+        <field name="SolderPoints">0</field>
+      </fields>
+      <pins>
+        <pin num="H" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pcb_details" part="Logo">
+      <fields>
+        <field name="Reference">Logo</field>
+        <field name="Value">Logo</field>
+      </fields>
+    </libpart>
+    <libpart lib="pcb_details" part="REFPOINT">
+      <footprints>
+        <fp>REF_POINT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RP</field>
+        <field name="Value">REFPOINT</field>
+      </fields>
+    </libpart>
+    <libpart lib="pcb_details" part="TESTPOINT">
+      <footprints>
+        <fp>TESTPOINT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TESTPOINT</field>
+        <field name="Footprint">PCB:TESTPOINT_1MM</field>
+        <field name="Price">0</field>
+        <field name="SolderPoints">0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Antennas_kl">
+      <uri>D:\Libs\Kicad/Antennas_kl.lib</uri>
+    </library>
+    <library logical="Connectors_kl">
+      <uri>D:\Libs\Kicad/Connectors_kl.lib</uri>
+    </library>
+    <library logical="Power_kl">
+      <uri>D:\Libs\Kicad/Power_kl.lib</uri>
+    </library>
+    <library logical="RF_ICs">
+      <uri>D:\Libs\Kicad/RF_ICs.lib</uri>
+    </library>
+    <library logical="Switches">
+      <uri>D:\Libs\Kicad/Switches.lib</uri>
+    </library>
+    <library logical="Tittar_kl">
+      <uri>D:\Libs\Kicad/Tittar_kl.lib</uri>
+    </library>
+    <library logical="Transistors_kl">
+      <uri>D:\Libs\Kicad/Transistors_kl.lib</uri>
+    </library>
+    <library logical="memory">
+      <uri>D:\Libs\Kicad/memory.lib</uri>
+    </library>
+    <library logical="pcb_details">
+      <uri>D:\Libs\Kicad/pcb_details.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/RF2400">
+      <node ref="L3" pin="2"/>
+      <node ref="ANT1" pin="1"/>
+    </net>
+    <net code="2" name="/VDD_NRF">
+      <node ref="DD2" pin="41"/>
+      <node ref="L6" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="DD2" pin="13"/>
+      <node ref="DD2" pin="36"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="DD2" pin="48"/>
+    </net>
+    <net code="3" name="/P27">
+      <node ref="XL2" pin="3"/>
+      <node ref="DD2" pin="39"/>
+    </net>
+    <net code="4" name="+BATT">
+      <node ref="XL2" pin="2"/>
+      <node ref="XL1" pin="1"/>
+      <node ref="L6" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="BZ1" pin="1"/>
+      <node ref="L7" pin="2"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="XL2" pin="1"/>
+      <node ref="B1" pin="C"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="XL1" pin="3"/>
+      <node ref="DD1" pin="3"/>
+      <node ref="DD1" pin="2"/>
+      <node ref="DD1" pin="1"/>
+      <node ref="DD1" pin="7"/>
+      <node ref="DD1" pin="4"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="DD2" pin="31"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="XTAL2" pin="H"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="DD2" pin="PAD"/>
+      <node ref="DD2" pin="45"/>
+      <node ref="C8" pin="1"/>
+      <node ref="SW2" pin="H"/>
+      <node ref="C18" pin="1"/>
+      <node ref="HOLE2" pin="H"/>
+      <node ref="HOLE1" pin="H"/>
+      <node ref="HOLE3" pin="H"/>
+      <node ref="HOLE4" pin="H"/>
+      <node ref="C25" pin="2"/>
+      <node ref="BLN1" pin="6"/>
+      <node ref="BLN1" pin="5"/>
+      <node ref="BLN1" pin="2"/>
+      <node ref="DD3" pin="19"/>
+      <node ref="DD3" pin="16"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="DD3" pin="PAD"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="XTAL3" pin="H"/>
+      <node ref="C23" pin="2"/>
+      <node ref="XL3" pin="3"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="DA1" pin="4"/>
+    </net>
+    <net code="6" name="/RF3">
+      <node ref="BLN1" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="L8" pin="2"/>
+    </net>
+    <net code="7" name="/P28">
+      <node ref="XL2" pin="4"/>
+      <node ref="DD2" pin="40"/>
+    </net>
+    <net code="8" name="Net-(C5-Pad2)">
+      <node ref="DD2" pin="38"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="9" name="/CC_GDO2">
+      <node ref="DD3" pin="3"/>
+      <node ref="DD2" pin="43"/>
+      <node ref="TP2" pin="1"/>
+    </net>
+    <net code="10" name="/CC_CS">
+      <node ref="DD3" pin="7"/>
+      <node ref="DD2" pin="7"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="11" name="/CC_MISO">
+      <node ref="DD3" pin="2"/>
+      <node ref="DD2" pin="9"/>
+    </net>
+    <net code="12" name="/CC_SCK">
+      <node ref="DD3" pin="1"/>
+      <node ref="DD2" pin="8"/>
+    </net>
+    <net code="13" name="/PWR_EE">
+      <node ref="DD1" pin="8"/>
+      <node ref="C3" pin="2"/>
+      <node ref="DD2" pin="19"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="14" name="/BAT_IN">
+      <node ref="B1" pin="A"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="15" name="/Buzzer">
+      <node ref="DD2" pin="42"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C4-Pad2)">
+      <node ref="DD2" pin="37"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="17" name="/BTN1">
+      <node ref="DD2" pin="28"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="18" name="/CC_GDO0">
+      <node ref="DD2" pin="6"/>
+      <node ref="DD3" pin="6"/>
+      <node ref="TP1" pin="1"/>
+    </net>
+    <net code="19" name="/GREEN_LED">
+      <node ref="DD2" pin="22"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="20" name="/RED_LED">
+      <node ref="DD2" pin="20"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="21" name="/BTN2">
+      <node ref="SW3" pin="1"/>
+      <node ref="DD2" pin="29"/>
+    </net>
+    <net code="22" name="Net-(ANT2-Pad1)">
+      <node ref="L8" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="ANT2" pin="1"/>
+    </net>
+    <net code="23" name="/LED_EN">
+      <node ref="R9" pin="1"/>
+      <node ref="DA1" pin="1"/>
+      <node ref="DD2" pin="27"/>
+    </net>
+    <net code="24" name="/NRF_DBG_RX">
+      <node ref="XL1" pin="6"/>
+      <node ref="DD2" pin="5"/>
+    </net>
+    <net code="25" name="/NRF_SWCLK">
+      <node ref="XL1" pin="4"/>
+      <node ref="DD2" pin="25"/>
+    </net>
+    <net code="26" name="/NRF_NRST">
+      <node ref="XL1" pin="8"/>
+      <node ref="DD2" pin="24"/>
+    </net>
+    <net code="27" name="/NRF_SWO">
+      <node ref="XL1" pin="7"/>
+      <node ref="DD2" pin="21"/>
+    </net>
+    <net code="28" name="/NRF_DBG_TX">
+      <node ref="XL1" pin="5"/>
+      <node ref="DD2" pin="4"/>
+    </net>
+    <net code="29" name="/CC_MOSI">
+      <node ref="DD2" pin="10"/>
+      <node ref="DD3" pin="20"/>
+    </net>
+    <net code="30" name="/PWR_PILL">
+      <node ref="DD2" pin="14"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="31" name="/NRF_SWDIO">
+      <node ref="XL1" pin="2"/>
+      <node ref="DD2" pin="26"/>
+    </net>
+    <net code="32" name="/NRF_EE_SCL">
+      <node ref="DD2" pin="18"/>
+      <node ref="R6" pin="2"/>
+      <node ref="DD1" pin="6"/>
+    </net>
+    <net code="33" name="/NRF_EE_SDA">
+      <node ref="DD1" pin="5"/>
+      <node ref="R1" pin="2"/>
+      <node ref="DD2" pin="17"/>
+    </net>
+    <net code="34" name="Net-(Q1-Pad6)">
+      <node ref="R4" pin="2"/>
+      <node ref="Q1" pin="6"/>
+    </net>
+    <net code="35" name="+3v3">
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="D1" pin="C"/>
+      <node ref="C6" pin="2"/>
+      <node ref="DA1" pin="2"/>
+    </net>
+    <net code="36" name="Net-(Q1-Pad4)">
+      <node ref="Q1" pin="4"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="37" name="/SCL_PILL">
+      <node ref="DD2" pin="16"/>
+      <node ref="XL3" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="38" name="/SDA_PILL">
+      <node ref="DD2" pin="15"/>
+      <node ref="XL3" pin="4"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="39" name="/BLUE_LED">
+      <node ref="DD2" pin="23"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="40" name="Net-(C21-Pad2)">
+      <node ref="C21" pin="2"/>
+      <node ref="DD2" pin="1"/>
+    </net>
+    <net code="41" name="Net-(C7-Pad2)">
+      <node ref="L3" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="DD2" pin="30"/>
+    </net>
+    <net code="42" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2"/>
+      <node ref="XTAL2" pin="1"/>
+      <node ref="DD2" pin="35"/>
+    </net>
+    <net code="43" name="Net-(C10-Pad2)">
+      <node ref="XTAL1" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="DD2" pin="2"/>
+    </net>
+    <net code="44" name="Net-(C11-Pad2)">
+      <node ref="DD2" pin="3"/>
+      <node ref="XTAL1" pin="1"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="45" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2"/>
+      <node ref="XTAL2" pin="2"/>
+      <node ref="DD2" pin="34"/>
+    </net>
+    <net code="46" name="Net-(C19-Pad2)">
+      <node ref="C19" pin="2"/>
+      <node ref="DD2" pin="33"/>
+    </net>
+    <net code="47" name="Net-(DD2-Pad32)">
+      <node ref="DD2" pin="32"/>
+    </net>
+    <net code="48" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2"/>
+      <node ref="DD2" pin="46"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="49" name="Net-(L2-Pad2)">
+      <node ref="L4" pin="1"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="50" name="Net-(DD2-Pad47)">
+      <node ref="L2" pin="1"/>
+      <node ref="DD2" pin="47"/>
+    </net>
+    <net code="51" name="Net-(DD2-Pad12)">
+      <node ref="DD2" pin="12"/>
+    </net>
+    <net code="52" name="Net-(DD2-Pad11)">
+      <node ref="DD2" pin="11"/>
+    </net>
+    <net code="53" name="Net-(DD2-Pad44)">
+      <node ref="DD2" pin="44"/>
+    </net>
+    <net code="54" name="/Lout">
+      <node ref="D1" pin="A"/>
+      <node ref="DA1" pin="5"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="55" name="VCC">
+      <node ref="C26" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="L7" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="DD3" pin="14"/>
+      <node ref="DD3" pin="15"/>
+      <node ref="DD3" pin="11"/>
+      <node ref="DD3" pin="9"/>
+      <node ref="DD3" pin="4"/>
+      <node ref="DD3" pin="18"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="56" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1"/>
+      <node ref="XTAL3" pin="2"/>
+      <node ref="DD3" pin="10"/>
+    </net>
+    <net code="57" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1"/>
+      <node ref="XTAL3" pin="1"/>
+      <node ref="DD3" pin="8"/>
+    </net>
+    <net code="58" name="/RF1">
+      <node ref="BLN1" pin="4"/>
+      <node ref="DD3" pin="12"/>
+    </net>
+    <net code="59" name="Net-(Q2-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="60" name="/BuzzerOut">
+      <node ref="Q2" pin="3"/>
+      <node ref="BZ1" pin="2"/>
+    </net>
+    <net code="61" name="Net-(Q1-Pad5)">
+      <node ref="R3" pin="2"/>
+      <node ref="Q1" pin="5"/>
+    </net>
+    <net code="62" name="Net-(C24-Pad2)">
+      <node ref="C24" pin="2"/>
+      <node ref="DD3" pin="5"/>
+    </net>
+    <net code="63" name="Net-(DD3-Pad17)">
+      <node ref="R11" pin="1"/>
+      <node ref="DD3" pin="17"/>
+    </net>
+    <net code="64" name="/RF2">
+      <node ref="BLN1" pin="3"/>
+      <node ref="DD3" pin="13"/>
+    </net>
+    <net code="65" name="/PWR_PILL_PROT">
+      <node ref="XL3" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="66" name="Net-(SW2-Pad3)">
+      <node ref="SW2" pin="3"/>
+    </net>
+    <net code="67" name="Net-(DA1-Pad3)">
+      <node ref="DA1" pin="3"/>
+    </net>
+  </nets>
+</export>
