@@ -1,4 +1,4 @@
-update=21.07.2019 20:54:31
+update=18-Dec-19 12:48:39
 version=1
 last_client=kicad
 [general]
@@ -32,6 +32,11 @@ ERC_CheckBusToNetConflicts=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
+LastSTEPExportPath=
+LastIDFExportPath=
+LastVRMLExportPath=
+LastSpecctraDSNExportPath=FireFly.dsn
+LastGenCADExportPath=
 CopperLayerCount=2
 BoardThickness=1.5
 AllowMicroVias=0
@@ -71,10 +76,12 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
+DimensionUnits=0
+DimensionPrecision=1
 SolderMaskClearance=0.09999999999999999
 SolderMaskMinWidth=0.15
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
